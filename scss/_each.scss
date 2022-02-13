@@ -1,0 +1,26 @@
+/***************
+MAPS
+$variable: (
+    // clave: valor
+        var1: valor1,
+        var2: valor2,
+        var3: valor3    
+);
+***************/
+$colores:(
+    /* clave:  valor*/
+        whatsapp: rgb(25, 128, 39),
+        instagram: #d5adc8,
+        facebook:  #4466af,
+
+    );
+//MAPS con each
+// @each clave, valor in mapa {}
+
+@each $nombre, $color in $colores {
+    #boton-#{$nombre} {
+        background-image: none;
+        background-color: $color;
+        border: $color;
+    }
+}

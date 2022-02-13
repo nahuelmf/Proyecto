@@ -1,0 +1,15 @@
+// Esto es un comentario de SCSS 
+
+/* Esto es un comentario de CSS PURO */
+
+// IMPORT
+@import "tipografias";
+@import "estructura";
+@import "each";
+
+
+/*Reseteo CSS*/
+*{
+    padding: 0;
+    margin: 0;
+}
