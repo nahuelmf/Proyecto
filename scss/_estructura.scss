@@ -14,12 +14,14 @@
         font-family: 'Quicksand', sans-serif;
         }
     
-        a:link, a:visited, a:active {
+        &:link, &:visited, &:active {
             text-decoration:none;
             color: black;
             
         }
-        
+        ul {    
+            display: inline;
+        }
         ul li{
             display: inline;
             margin: 5px;
@@ -36,7 +38,7 @@
         
     /* Titulos */ 
     
-    h2{
+    h1{
         text-align: center;
         font-style: italic;
     font-size: 20px;
@@ -45,7 +47,7 @@
     
     }
     
-    h3{
+    h2{
     font-style: italic;
     font-size: 15px;
     font-family: 'Quicksand', sans-serif;
@@ -193,6 +195,13 @@
         .porfolio {
                     width: 70%;
         }
+        .container-fluid{
+            width: 100%;
+            padding-right: var(--bs-gutter-x, 0.75rem);
+            padding-left: var(--bs-gutter-x, 0.75rem);
+            margin-right: auto;
+            margin-left: auto;
+        }
         /* ID */ 
     
         #texto{
@@ -209,7 +218,7 @@
             padding: 10px 30px;
             width: 50%;
             }
-            #Servicios{
+            #servicios{
                 color: black;
                 font-style: italic;
                 font-size: 10px;
@@ -301,18 +310,22 @@ header{
 
 nav{
 
-    grid-area: menu;
+grid-area: menu;
 text-align: center;
 font-style: italic;
-font-size: 30px;
+font-size: 70px;
 font-family: 'Quicksand', sans-serif;
 
 }
 
-a:link, a:visited, a:active {
+&:link, &:visited, &:active {
     text-decoration:none;
     color: black;
     
+}
+
+ul{
+    display: inline;
 }
 
 li{
@@ -351,7 +364,7 @@ ul li:hover{
 
 /* Titulos */ 
 
-h2{
+h1{
     text-align: center;
     font-style: italic;
     font-size: 30px;
@@ -359,7 +372,7 @@ h2{
     margin: 50px 100px
 }
 
-h3{
+h2{
     grid-area: servicios; 
     text-align: center;
     font-style: italic;
@@ -440,6 +453,14 @@ aside{
 
 }
 
+.container-fluid{
+    width: 100%;
+    padding-right: var(--bs-gutter-x, 0.75rem);
+    padding-left: var(--bs-gutter-x, 0.75rem);
+    margin-right: auto;
+    margin-left: auto;
+  }
+
 /*ID*/ 
 
 #galeria {
@@ -451,7 +472,7 @@ aside{
     padding: 15px;
     }
     
-    #Servicios{
+    #servicios{
     
         color: black;
         font-style: italic;
@@ -550,7 +571,7 @@ header{
 
 nav{
 
-    grid-area: menu;
+grid-area: menu;
 text-align: center;
 font-style: italic;
 font-size: 70px;
@@ -558,10 +579,14 @@ font-family: 'Quicksand', sans-serif;
 
 }
 
-a:link, a:visited, a:active {
+&:link, &:visited, &:active {
     text-decoration:none;
     color: black;
     
+}
+
+ul{
+    display: inline;
 }
 
 li{
@@ -578,7 +603,6 @@ li{
 
 
 ul li{
-    display: inline;
     list-style-type: none;
     font-style: italic;
     font-size: 20px;
@@ -600,7 +624,7 @@ ul li:hover{
 
 /* Titulos */ 
 
-h2{
+h1{
     text-align: center;
     font-style: italic;
     font-size: 30px;
@@ -608,7 +632,7 @@ h2{
     margin: 50px 100px
 }
 
-h3{
+h2{
     grid-area: servicios; 
     text-align: center;
     font-style: italic;
@@ -620,9 +644,9 @@ h3{
 /* Footer */ 
 
 footer{
-    grid-area: pie;
+grid-area: pie;
 text-align: center;
-    color: dimgray;
+color: dimgray;
 font-style: italic;
 font-size: 25px;
 font-family: 'Quicksand', sans-serif;
@@ -724,6 +748,14 @@ main{
 
 }
 
+.container-fluid{
+    width: 100%;
+    padding-right: var(--bs-gutter-x, 0.75rem);
+    padding-left: var(--bs-gutter-x, 0.75rem);
+    margin-right: auto;
+    margin-left: auto;
+}
+
 /* ID */ 
 
 #formulario {
@@ -746,7 +778,7 @@ main{
         margin: 10px;
     }
     
-    #Servicios{
+    #servicios{
         margin: 0px 15px 10px 15px;
         padding: 15px;
         color: black;
@@ -763,6 +795,7 @@ main{
         margin: 20px;
         
     }
+
 
 /* EXTENDS */
 .redsocial {
